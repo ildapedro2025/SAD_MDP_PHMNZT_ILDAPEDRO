@@ -1,14 +1,12 @@
-# 🏥 Decisão Sob Incerteza e Processos de Decisão de Markov (MDP)  
+# Decisão Sob Incerteza e Processos de Decisão de Markov (MDP)  
 ## Aplicação no Hospital Municipal do Nzeto
 
----
 
-## 👩‍💻 Autora
+## Autora
 **Ilda Luzia da Costa Pedro**
 
----
 
-## 📌 Descrição Geral
+## Descrição Geral
 
 Este projeto implementa uma aplicação interativa baseada em **Processos de Decisão de Markov (MDP)** aplicada à gestão hospitalar, utilizando **Streamlit** para visualização e simulação dinâmica.
 
@@ -16,7 +14,6 @@ O sistema modela decisões sob incerteza em um ambiente hospitalar com recursos 
 
 Além do modelo MDP, o sistema incorpora um componente de **Machine Learning incremental (Regressão Linear)** para estimativa de estados futuros.
 
----
 
 ## Modelo Matemático (MDP)
 
@@ -44,7 +41,6 @@ A função de recompensa combina:
 - Satisfação (redução da urgência)  
 - Penalização de custo operacional  
 
----
 
 ## Regras do Sistema
 
@@ -52,7 +48,6 @@ A função de recompensa combina:
 - Recursos máximos: `MAX_RECURSOS = 25`
 - Urgência máxima: `MAX_URGENCIA = 35`
 
----
 
 ## Componente de Machine Learning
 
@@ -67,7 +62,6 @@ O sistema inclui aprendizagem incremental baseada em:
 - `prever_proximo_estado()` → estima evolução do sistema
 - Ativação após ≥ 5 interações
 
----
 
 ## Interface (Streamlit)
 
@@ -93,7 +87,6 @@ A aplicação contém:
 - Gráficos interativos (Plotly)
 - Estatísticas por ação
 
----
 
 ## Lógica de Decisão
 
@@ -109,8 +102,6 @@ Combinação de:
 - satisfação = redução da urgência
 - custo = penalização de ações críticas
 
----
-
 ## Funcionalidades principais
 
 - Simulação estocástica de decisões hospitalares  
@@ -121,8 +112,6 @@ Combinação de:
 - Importação de dados históricos  
 - Dashboard interativo  
 
----
-
 ## Tecnologias utilizadas
 
 - Python 3
@@ -132,8 +121,7 @@ Combinação de:
 - Plotly
 - Scikit-learn
 - OpenPyXL
-
----
+  
 
 ## Como executar
 
