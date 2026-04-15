@@ -129,8 +129,8 @@ Combinação de:
 ```bash
 git clone https://github.com/ildapedro2025/SAD_MDP_PHMNZT_ILDAPEDRO.git
 
-## 2. Instalar Dependências
+### 2. Clonar o repositório
 pip install -r requirements.txt
 
-## 3. Executar Aplicação
+### 3. Executar Aplicação
 streamlit run app.py
